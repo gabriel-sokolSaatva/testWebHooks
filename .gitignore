@@ -1,0 +1,63 @@
+# Node.js dependencies
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# MacOS specific
+*.DS_Store
+
+# Specific to Visual Studio Code
+.vscode/
+.history/
+
+# Specific to Magento
+/var/
+/generated/
+/pub/media/
+/pub/static/frontend/
+/pub/static/_cache/
+app/etc/config.php
+app/etc/env.php
+
+# Specific to Python
+*.pyc
+__pycache__/
